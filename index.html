@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- TIME -->
+      <div id="time">
+        <!-- aca va la cuenta regresiva -->
+        <div id="value"></div>
+
+        <!-- aca va el nombre de la tarea actual -->
+        <div id="taskName"></div>
+      </div>
+
+      <!-- TASKS CONTAINER -->
+      <div class="tasks-container">
+        <!-- FORM -->
+        <div class="form">
+          <form action="" id="form">
+            <input type="text" id="itTask" />
+            <input type="submit" id="bAdd" value="Agregar tarea" />
+          </form>
+        </div>
+
+        <!-- TASKS -->
+        <div id="tasks"></div>
+      </div>
+    </div>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
